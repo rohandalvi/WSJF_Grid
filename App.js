@@ -36,7 +36,7 @@ Ext.define('CustomApp', {
     	if(isNaN(value))
     		return -1;
     	else 
-    	 return Math.round(value*1000)/1000;
+    	 return Math.round(value*10)/10;
     },
     _createGrid: function(myStore){
     	console.log("Load up a populated grid! ");
